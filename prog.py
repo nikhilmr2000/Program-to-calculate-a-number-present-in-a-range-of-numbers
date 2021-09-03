@@ -12,7 +12,6 @@ l=[]
 for i in range(n,m1):
     s+=str(i)
     p=len(s)
-    lh=i
     k=0
     gh=i
     m=0
