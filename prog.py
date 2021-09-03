@@ -5,7 +5,7 @@
 
 n=int(input())
 m1=int(input())
-k=int(input())
+k1=int(input())
 
 s=""
 l=[]
@@ -18,7 +18,7 @@ for i in range(n,m1):
     m=0
     while(k>=0):
         z=gh%10
-        if(z==k):
+        if(z==k1):
             m=m+1
         gh=gh//10
         k=k+1
